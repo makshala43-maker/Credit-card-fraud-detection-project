@@ -13,7 +13,8 @@ The goal was to build a model that maximizes the detection of actual frauds and 
 
 ##  Final Results (Random Forest + SMOTE)
 <img src="confusion_matrix_final.png" width=70%>)
-The supervised model achieved excellent results, successfully identifying the vast majority of fraudulent activities without overwhelming the system with false positives.
+  
+  The supervised model achieved excellent results, successfully identifying the vast majority of fraudulent activities without overwhelming the system with false positives.
 
 * **True Negatives (Normal passed):** 56,851
 * **True Positives (Frauds caught):** 81
