@@ -12,6 +12,7 @@ The goal was to build a model that maximizes the detection of actual frauds and 
 * **Libraries:** `pandas`, `scikit-learn`, `imblearn`, `tensorflow`, `matplotlib`, `seaborn`.
 
 ##  Final Results (Random Forest + SMOTE)
+![](confusion_matrix_final.png)
 The supervised model achieved excellent results, successfully identifying the vast majority of fraudulent activities without overwhelming the system with false positives.
 
 * **True Negatives (Normal passed):** 56,851
@@ -20,6 +21,7 @@ The supervised model achieved excellent results, successfully identifying the va
 * **False Negatives (Frauds missed):** 17
 
 ## Autoencoder Anomaly Detection
+![](autoencoder_anomalies.png)
 As an alternative approach, an unsupervised Autoencoder was trained strictly on normal transactions. By setting a hard threshold at the 99.6th percentile of the mean squared error reconstruction loss, the model successfully flagged anomalies without ever "seeing" a fraud case during training, but didn't perform as well as 
 Random Forest.
 
