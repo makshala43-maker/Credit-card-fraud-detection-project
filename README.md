@@ -1,7 +1,7 @@
 #  Credit Card Fraud Detection System
 
 ## Project Overview
-This project focuses on detecting fraudulent credit card transactions using machine learning. The primary challenge of this dataset is its extreme class imbalance (frauds account for just ~0.17% of all transactions). 
+This project focuses on using machine learning to detect fraudulent credit card transactions. The main challenge of the dataset used is its large imbalance (frauds account for just ~0.17% of all transactions). 
 
 The goal was to build a model that maximizes the detection of actual frauds and at the same time ensuring a pleasant experience for bank customers.
 
