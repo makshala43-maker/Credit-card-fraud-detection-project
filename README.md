@@ -7,12 +7,12 @@ The goal was to build a model that maximizes the detection of actual frauds and 
 
 ## Techniques & Tools Used
 * **Data Preprocessing:** Handled features hidden via PCA, normalized `Time` and `Amount` using `RobustScaler` to mitigate the impact of extreme outliers.
-* **Supervised Learning** Using the Random Forest method combined with 'fake' fraud transaction using SMOTE increased performance of the system.
+* **Supervised Learning** Using the Random Forest method combined with synthetic fraud transactions using SMOTE increased performance of the system.
 * **Unsupervised Learning:** Designed an autoencoder **neural network** using TensorFlow for anomaly detection based on reconstruction error.
 * **Libraries:** `pandas`, `scikit-learn`, `imblearn`, `tensorflow`, `matplotlib`, `seaborn`.
 
 ##  Final Results (Random Forest + SMOTE)
-<img src="confusion_matrix_final.png" width=70%>)
+<img src="confusion_matrix_final.png" width="70%">
   
   The supervised model achieved excellent results, successfully identifying the vast majority of fraudulent activities without overwhelming the system with false positives.
 
